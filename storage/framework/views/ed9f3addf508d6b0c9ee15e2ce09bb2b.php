@@ -1,0 +1,27 @@
+<div class="modal fade" id="add-coupon-discount" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"><?php echo e(translate('coupon_discount')); ?></h5>
+                <button id="coupon_close" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="title-color"><?php echo e(translate('coupon_code')); ?></label>
+                    <input type="text" id="coupon_code" class="form-control" name="coupon_code"
+                           placeholder="SULTAN200">
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn--primary action-coupon-discount" data-dismiss="modal">
+                        <?php echo e(translate('submit')); ?>
+
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<?php /**PATH /var/www/html/moores/resources/views/admin-views/pos/partials/modals/_add-coupon-discount.blade.php ENDPATH**/ ?>
